@@ -1,0 +1,65 @@
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/journalbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  filter: blur(4px);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1%;
+}
+
+.body-journal {
+  max-width: 450px;
+  margin: auto;
+  height: 300px;
+  background-color: rgba(233, 229, 230, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.list-souvenirs {
+  max-width: 90%;
+  margin-block: 4%;
+  margin-inline: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(45, 173, 172, 0.4);
+  color: black;
+}
+
+.card-moment {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(130, 58, 104, 0.8);
+  margin: 2%;
+}
+
+.row {
+  justify-content: center;
+}
+
+.delete-btn,
+.modif-btn {
+  background-color: rgba(48, 184, 180, 0.5);
+  border: none;
+  padding-bottom: 5px;
+  padding-inline: 8px;
+  border-radius: 9px;
+}
+
+.delete-btn {
+  color: rgb(149 12 12);
+}
+
+.modif-btn {
+  color: rgb(3, 90, 57);
+}
